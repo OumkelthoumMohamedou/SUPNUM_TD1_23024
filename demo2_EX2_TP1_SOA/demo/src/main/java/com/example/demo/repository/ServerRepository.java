@@ -1,0 +1,15 @@
+// package com.example.demo.repository;
+
+// public class ServerRepository {
+    
+// }
+
+
+package com.example.demo.repository;
+
+import com.example.demo.entity.Server;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ServerRepository extends JpaRepository<Server, Long> {
+
+}
